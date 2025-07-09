@@ -1,11 +1,11 @@
 
-# 🧾 Laravel Invoice Event Demo
+# Laravel Invoice Assignment
 
-This is a simple Laravel demo project for generating invoices and sending email notifications using **Events**, **Listeners**, and **Mailable** classes.
+This is a simple Laravel project for generating invoices and sending email notifications using **Events**, **Listeners**, and **Mailable** classes.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Create invoices with client name, quantity, and tax
 - Automatically calculate subtotal, tax, and total
@@ -15,4 +15,9 @@ This is a simple Laravel demo project for generating invoices and sending email 
 
 ---
 
-- Migrate first, hhen run the project 
+## Setup Instructions
+1. Clone repository: `git clone https://github.com/Abineshdurai/invoice_assign.git`
+2. Install dependencies: `composer install`
+3. Run migrations: `php artisan migrate`
+4. Start queue worker: `php artisan queue:work`
+5. Start server: `php artisan serve`
