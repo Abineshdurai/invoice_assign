@@ -26,3 +26,5 @@ This is a simple Laravel project for generating invoices and sending email notif
 3. Run migrations: `php artisan migrate`
 4. Start queue worker: `php artisan queue:work`
 5. Start server: `php artisan serve`
+6. After submitting the invoice form, Laravel dispatches a mail job to the queue.
+To process and send the email, run the following command: `php artisan queue:work`
